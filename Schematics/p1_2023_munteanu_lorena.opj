@@ -1,0 +1,229 @@
+(ExpressProject "p1_2023_munteanu_lorena"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\opto\opto.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smlk18wbjxw\smlk18wbjxw\smlk18wbjxw.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smls14bet\smls14bet\smls14bet.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj309lt1g.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj177lt1g.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd32cg.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd31cg.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\irfr120npbf.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c10.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v8.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v2.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v6.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v1.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c2v7.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc856b.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc846b.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc817-25.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc807-25.olb"
+        (Type "Schematic Library"))
+      (File
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\1n4148.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\p1_2023_munteanu_lorena.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\semnal_treapta.sim"
+        (DisplayName "SCHEMATIC1-semnal_treapta")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\transient.sim"
+        (DisplayName "SCHEMATIC1-transient")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\ac_sweep.sim"
+        (DisplayName "SCHEMATIC1-Ac_sweep")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\dc_sweep.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2023_munteanu_lorena-pspicefiles\schematic1\dc_sweep.sim"
+        (DisplayName "SCHEMATIC1-Dc_sweep")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj309lt1g.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd32cg.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\mjd31cg.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\irfr120npbf.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c10.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c8v2.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v8.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c6v2.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v6.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c5v1.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bzx84c2v7.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc856b.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc846b.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc817-25.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\bc807-25.lib"))
+      (File
+         "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\cadence\spb_17.2\tools\capture\library\modele_a1_lib\1n4148.lib"))
+      (File
+         "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\opto\opto.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\opto\opto.lib"))
+      (File
+         "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smlk18wbjxw\smlk18wbjxw\smlk18wbjxw.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smlk18wbjxw\smlk18wbjxw\smlk18wbjxw.lib"))
+      (File
+         "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smls14bet\smls14bet\smls14bet.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "c:\users\munte\desktop\pp1\modele-spice-led-uri_2022\smls14bet\smls14bet\smls14bet.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "munte")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 380"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1330 52 471")
+        (Scroll "-130 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\P1\P1_2023_MUNTEANU_LORENA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
